@@ -1,0 +1,242 @@
+{
+    "_NAME": {
+        "?": "What is your first name and last name?",
+        "name" : "First, Last"
+    },
+    "_STATE": {
+        "?": "What State do you live in?",
+        "1" : "Alabama",
+        "2" : "Alaska",
+        "4" : "Arizona",
+        "5" : "Arkansa",
+        "6" : "California",
+        "8" : "Colorado",
+        "9" : "Connecticut",
+        "10" : "Delaware",
+        "11" : "District of Columbia",
+        "12" : "Florida",
+        "13" : "Georgia",
+        "15" : "Hawaii",
+        "16" : "Idaho",
+        "17" : "Illinois",
+        "18" : "Indiana",
+        "19" : "Iowa",
+        "20" : "Kansas",
+        "21" : "Kentucky",
+        "22" : "Louisiana",
+        "23" : "Maine",
+        "24" : "Maryland",
+        "25" : "Massachusetts",
+        "26" : "Michigan",
+        "27" : "Minnesota",
+        "28" : "Mississippi",
+        "29" : "Missouri",
+        "30" : "Montana",
+        "31" : "Nebraska",
+        "32" : "Nevada",
+        "33" : "New Hampshire",
+        "34" : "New Jersey",
+        "35" : "New Mexico",
+        "36" : "New York",
+        "37" : "North Carolina",
+        "38" : "North Dakota",
+        "39" : "Ohio",
+        "40" : "Oklahoma",
+        "41" : "Oregon",
+        "42" : "Pennsylvania",
+        "44" : "Rhode Island",
+        "45" : "South Carolina",
+        "46" : "South Dakota",
+        "47" : "Tennessee",
+        "48" : "Texas",
+        "49" : "Utah",
+        "50" : "Vermont",
+        "51" : "Virginia",
+        "53" : "Washington",
+        "54" : "West Virginia",
+        "55" : "Wisconson",
+        "56" : "Wyoming",
+        "99" : "Other"        
+    },
+    "_ADDRESS": {
+        "?": "What is your street address, City?",
+        "address" : "Street, City, zip"
+    },
+    "DISPLAY_CODE": {
+        "100": "Completed Interview",
+        "101": "Partial Completed Interview"
+    },
+    "ETHINICITY": {
+        "?": "What is your race/ethnicity?", 
+        "1": "White Only, Non-Hispanic",
+        "2": "Black Only, Non-Hispanic",
+        "3": "American Indian or Alaskan Native Only, Non-Hispanic",
+        "4": "Asian Only, Non-Hispanic",
+        "5": "Native Hawaiian or Other Pacific Islander",
+        "6": "Other, Non-Hispanic",        
+        "7": "Hispanic",        
+        "99": "Skip this question"
+    },
+    "GENDER": {
+        "?": "Are you male(M) or female(F)?",
+        "0": "F",
+        "1": "M",
+        "99": "Skip this question"
+    },
+    "AGE_GROUP": {
+        "?": "How old are you?",
+        "1": "Age 18 to 24",
+        "2": "Age 25 to 34",
+        "3": "Age 35 to 44",
+        "4": "Age 45 to 54",
+        "5": "Age 55 to 64",
+        "6": "Age 65 or Older",
+        "99": "Skip this question"
+    },
+    "GENERAL_HEALTH": {
+        "?": "How would you rate your general health?",
+        "1": "Excellent",
+        "2": "Very Good",
+        "3": "Good",
+        "4": "Fair",
+        "5": "Poor",        
+        "99": "Skip this question"
+    },
+    "CLAUSTROPHOBIC": {
+        "?": "Do you feel Claustrophobic?",
+        "0": "No",
+        "1": "Yes",
+        "2": "Unknown",
+        "99": "Skip this question"
+    },
+    "METAL_IMPLANTS": {
+        "?": "Do you have metal implants?",
+        "0": "No",
+        "1": "Yes",
+        "2": "Unknown",
+        "99": "Skip this question"
+    },
+    "PACEMAKER": {
+        "?": "Do you have a pacemaker?",
+        "0": "No",
+        "1": "Yes",
+        "2": "Unknown",
+        "99": "Skip this question"        
+    },
+    "PRIOR_IMAGING": {
+        "?": "Do you have any prior imaging?",
+        "0": "No",
+        "1": "Yes",
+        "2": "Unknown",
+        "99": "Skip this question"
+    },
+    "CONTRAST_ALLERGY": {
+        "?": "Do you have any contrast allergy?",
+        "0": "No",
+        "1": "Yes",
+        "2": "Unknown",
+        "99": "Skip this question"
+    },
+    "CAN_REMAIN_STILL": {
+        "?": "Can you remain still during the scan?",
+        "0": "No",
+        "1": "Yes",
+        "2": "Unknown",
+        "99": "Skip this question"
+    },
+    "HEART_CORONARY": {
+        "?": "Do you have any history of coronary heart disease?",
+        "0": "No",
+        "1": "Yes",
+        "2": "Unknown",
+        "99": "Skip this question"
+    },
+    "HEART_STROKE": {
+        "?": "Do you have any history of heart stroke?",
+        "0": "No",
+        "1": "Yes",
+        "2": "Unknown",
+        "99": "Skip this question"
+    },
+    "ASTHMA": {
+        "?": "Do you have any history of asthma?",
+        "0": "No",
+        "1": "Yes",
+        "2": "Unknown",
+        "99": "Skip this question"
+    },
+    "CANCER": {
+        "?": "Do you have any history of any type of cancer?",
+        "0": "No",
+        "1": "Yes",
+        "2": "Unknown",
+        "99": "Skip this question"
+    },   
+    "DIABETES": {
+        "?": "Do you have any history of diabetes?",
+        "0": "No",
+        "1": "Yes",
+        "2": "Unknown",
+        "99": "Skip this question"
+    },
+    "COPD": {
+        "?": "Do you have pulmonary disease, C.O.P.D.?",
+        "0": "No",
+        "1": "Yes",        
+        "2": "Unknown",        
+        "99": "Skip this question"
+    },
+    "PREGNANT": {
+        "?": "Are you now pregnant?",
+        "0": "No",
+        "1": "Yes",
+        "2": "Unknown",
+        "99": "Skip this question"
+    },    
+    "WEIGHT_CATEGORY": {
+        "?": "Which of the following wheight categories do you fall into?",
+        "1": "Underweight",
+        "2": "Normal Weight",
+        "3": "Overweight",
+        "4": "Obese",
+        "99": "Skip this question"
+    },
+    "RECENT_SURGERY_DAYS": {
+        "?": "Do you have any recent past surgery?",
+        "1": "None",
+        "2": "1 week ago",
+        "3": "2 weeks ago",
+        "4": "1 month ago",
+        "5": "3 months ago",
+        "6": "morte than 3 months ago",
+        "99": "Skip this question"
+    },
+    "PAIN_LEVEL": {
+        "?": "How strong/Severe do you feel your pain?",
+        "1": "None",
+        "2": "Mild",
+        "3": "Moderate",
+        "4": "Severe",
+        "5": "Very Severe",
+        "6": "Worst Possible",
+        "99": "Skip this question"
+    },
+    "PAIN_LOCATION_SCORE": {
+        "?": "Where do you feel pain?",
+        "1": "None",
+        "2": "Head",
+        "3": "Upper Back",
+        "4": "Lower Back",
+        "5": "Chest",
+        "99": "Skip this question"
+    },
+    "ANXIETY_LEVEL": {
+        "?": "How strong do you feel anxiety?",
+        "1": "None",
+        "2": "Mild",
+        "3": "Moderate",
+        "4": "High",
+        "5": "Very High",
+        "99": "Skip this question"
+    }
+}
