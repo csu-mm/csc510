@@ -1,9 +1,9 @@
 {
-    "_NAME": {
+    "NAME": {
         "?": "What is your first name and last name?",
         "name" : "First, Last"
     },
-    "_STATE": {
+    "STATE": {
         "?": "What State do you live in?",
         "1" : "Alabama",
         "2" : "Alaska",
@@ -58,11 +58,11 @@
         "56" : "Wyoming",
         "99" : "Other"        
     },
-    "_ADDRESS": {
+    "ADDRESS": {
         "?": "What is your street address, City?",
         "address" : "Street, City, zip"
     },
-    "DISPLAY_CODE": {
+    "INTERVIEW_STATUS": {
         "100": "Completed Interview",
         "101": "Partial Completed Interview"
     },
@@ -84,13 +84,12 @@
         "99": "Skip this question"
     },
     "AGE_GROUP": {
-        "?": "How old are you?",
-        "1": "Age 18 to 24",
-        "2": "Age 25 to 34",
-        "3": "Age 35 to 44",
-        "4": "Age 45 to 54",
-        "5": "Age 55 to 64",
-        "6": "Age 65 or Older",
+        "?": "What is your age group?",
+        "1": "Age 17 to 30",
+        "2": "Age 31 to 40",
+        "3": "Age 41 to 50",
+        "4": "Age 51 to 65",
+        "5": "Age 66 or Older",        
         "99": "Skip this question"
     },
     "GENERAL_HEALTH": {
@@ -100,6 +99,15 @@
         "3": "Good",
         "4": "Fair",
         "5": "Poor",        
+        "99": "Skip this question"
+    },
+    "WEIGHT_CATEGORY": {
+        "?": "Which of the following wheight categories do you fall into?",
+        "1": "Underweight",
+        "2": "Normal Weight",
+        "3": "Overweight",
+        "4": "Obese",
+        "5": "Very Obese",
         "99": "Skip this question"
     },
     "CLAUSTROPHOBIC": {
@@ -192,23 +200,14 @@
         "1": "Yes",
         "2": "Unknown",
         "99": "Skip this question"
-    },    
-    "WEIGHT_CATEGORY": {
-        "?": "Which of the following wheight categories do you fall into?",
-        "1": "Underweight",
-        "2": "Normal Weight",
-        "3": "Overweight",
-        "4": "Obese",
-        "99": "Skip this question"
-    },
-    "RECENT_SURGERY_DAYS": {
+    },        
+    "RECENT_SURGERY_DAYS_GROUP": {
         "?": "Do you have any recent past surgery?",
         "1": "None",
-        "2": "1 week ago",
-        "3": "2 weeks ago",
-        "4": "1 month ago",
-        "5": "3 months ago",
-        "6": "morte than 3 months ago",
+        "2": "10 days ago",        
+        "3": "1 month ago",
+        "4": "3 months ago",
+        "5": "more than 3 months ago",
         "99": "Skip this question"
     },
     "PAIN_LEVEL": {
@@ -216,12 +215,11 @@
         "1": "None",
         "2": "Mild",
         "3": "Moderate",
-        "4": "Severe",
-        "5": "Very Severe",
-        "6": "Worst Possible",
+        "4": "High",
+        "5": "Very High",
         "99": "Skip this question"
     },
-    "PAIN_LOCATION_SCORE": {
+    "PAIN_LOCATION": {
         "?": "Where do you feel pain?",
         "1": "None",
         "2": "Head",
